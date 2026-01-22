@@ -92,8 +92,9 @@ const Experience = () => {
                                             {exp.role}
                                         </h3>
                                         <p style={{
-                                            fontSize: '0.825rem',
-                                            color: 'var(--text-secondary)'
+                                            fontSize: '0.9rem',
+                                            color: 'var(--text-secondary)',
+                                            fontWeight: 500
                                         }}>
                                             {exp.company} <span style={{ color: 'var(--text-muted)' }}>•</span> {exp.period}
                                         </p>
@@ -102,9 +103,9 @@ const Experience = () => {
 
                                 {/* Description */}
                                 <p style={{
-                                    fontSize: '0.875rem',
+                                    fontSize: '0.95rem',
                                     color: 'var(--text-secondary)',
-                                    lineHeight: 1.5
+                                    lineHeight: 1.6
                                 }}>
                                     {exp.desc}
                                 </p>

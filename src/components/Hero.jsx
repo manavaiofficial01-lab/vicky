@@ -41,9 +41,9 @@ const Hero = () => {
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', maxWidth: '400px', margin: '0 auto 20px', lineHeight: 1.4 }}
+                        style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', maxWidth: '480px', margin: '0 auto 28px', lineHeight: 1.6, fontWeight: 500 }}
                     >
-                        I'm <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>Vignesh</span>, a 19-year-old Video Editor & Vibe Coder
+                        I'm <span style={{ color: 'var(--text-primary)', fontWeight: 700 }}>Vignesh</span>, a 19-year-old Video Editor & Vibe Coder
                         who transforms raw footage into captivating narratives with cutting-edge AI tech and creative coding.
                     </motion.p>
 
@@ -59,13 +59,13 @@ const Hero = () => {
                             View My Portfolio
                             <Rocket size={18} />
                         </a>
-                        <a href="/K MODHA VIGNESH RESUME.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+                        <a href="/K MODHA VIGNESH RESUME.pdf" target="_blank" rel="noopener noreferrer" className="btn btn-secondary" style={{ padding: '12px 24px' }}>
                             Download CV
                         </a>
-                        <a href="#contact" className="btn btn-outline" style={{
-                            background: 'var(--overlay-light)',
+                        <a href="#contact" className="btn btn-secondary" style={{
+                            background: 'var(--bg-tag)',
                             padding: '12px 24px',
-                            borderRadius: '12px',
+                            borderRadius: '9999px',
                             border: '1px solid var(--border)',
                             fontSize: '0.9rem',
                             fontWeight: 600,

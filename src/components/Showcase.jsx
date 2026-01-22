@@ -381,13 +381,13 @@ const Showcase = () => {
                                         marginBottom: '12px'
                                     }}>
                                         <div style={{
-                                            fontSize: '0.6rem',
-                                            fontWeight: 800,
+                                            fontSize: '0.65rem',
+                                            fontWeight: 900,
                                             textTransform: 'uppercase',
-                                            letterSpacing: '0.08em',
+                                            letterSpacing: '0.1em',
                                             color: 'var(--accent)',
                                             background: 'var(--accent-glow)',
-                                            padding: '4px 12px',
+                                            padding: '4px 14px',
                                             borderRadius: '100px',
                                             border: '1px solid var(--accent-light)',
                                             whiteSpace: 'nowrap',
@@ -403,9 +403,9 @@ const Showcase = () => {
                                         }}>
                                             {project.tech.slice(0, 2).map((t, ti) => (
                                                 <span key={ti} style={{
-                                                    fontSize: '0.65rem',
-                                                    color: 'var(--text-muted)',
-                                                    fontWeight: 600,
+                                                    fontSize: '0.75rem',
+                                                    color: 'var(--text-secondary)',
+                                                    fontWeight: 700,
                                                     whiteSpace: 'nowrap'
                                                 }}>
                                                     {t}{ti < project.tech.slice(0, 2).length - 1 && ' •'}
@@ -426,9 +426,9 @@ const Showcase = () => {
                                     </h3>
 
                                     <p style={{
-                                        fontSize: '0.85rem',
+                                        fontSize: '0.95rem',
                                         color: 'var(--text-secondary)',
-                                        lineHeight: 1.5,
+                                        lineHeight: 1.6,
                                         marginBottom: 0
                                     }}>
                                         {project.desc}

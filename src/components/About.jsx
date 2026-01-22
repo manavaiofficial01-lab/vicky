@@ -91,20 +91,20 @@ const About = () => {
 
                         <div style={{ marginBottom: 20 }}>
                             <p style={{
-                                fontSize: '0.9rem',
+                                fontSize: '1rem',
                                 color: 'var(--text-secondary)',
-                                lineHeight: 1.6,
-                                marginBottom: 14
+                                lineHeight: 1.7,
+                                marginBottom: 16
                             }}>
-                                I'm <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>K Modha Vignesh</span>, a 19-year-old Video Editor & Vibe Coder from Tamil Nadu, India. With 3+ years of creative experience,
+                                I'm <span style={{ color: 'var(--text-primary)', fontWeight: 700 }}>K Modha Vignesh</span>, a 19-year-old Video Editor & Vibe Coder from Tamil Nadu, India. With 3+ years of creative experience,
                                 I specialize in cinematic video editing using DaVinci Resolve and crafting elegant web experiences with modern tech stacks.
                             </p>
                             <p style={{
-                                fontSize: '0.9rem',
+                                fontSize: '1rem',
                                 color: 'var(--text-secondary)',
-                                lineHeight: 1.6
+                                lineHeight: 1.7
                             }}>
-                                My expertise spans <span style={{ color: 'var(--text-primary)', fontWeight: 600 }}>professional video production</span> (color grading, motion graphics, storytelling),
+                                My expertise spans <span style={{ color: 'var(--text-primary)', fontWeight: 700 }}>professional video production</span> (color grading, motion graphics, storytelling),
                                 paired with full-stack development skills. I have the ability to develop full-featured applications from scratch to production within 20 days—combining
                                 AI tools like ChatGPT and DeepSeek with rapid development practices to deliver high-quality digital solutions that captivate audiences.
                             </p>

@@ -87,7 +87,7 @@ const Skills = () => {
                         viewport={{ once: true }}
                         transition={{ delay: 0.2 }}
                         className="section-subtitle"
-                        style={{ textAlign: 'left', maxWidth: '300px', fontSize: '0.8rem', opacity: 0.7 }}
+                        style={{ textAlign: 'left', maxWidth: '300px', fontSize: '0.9rem', color: 'var(--text-secondary)' }}
                     >
                         Engineering precision meets creative intuition, refined through building real-world products.
                     </motion.p>
@@ -103,7 +103,7 @@ const Skills = () => {
                         display: 'grid',
                         gridTemplateColumns: 'repeat(auto-fill, minmax(110px, 1fr))',
                         gap: '10px'
-                }}>
+                    }}>
                     {tools.map((tool, i) => (
                         <motion.div
                             key={i}
@@ -150,8 +150,8 @@ const Skills = () => {
                                 />
                             </div>
                             <span style={{
-                                fontSize: '0.7rem',
-                                fontWeight: 600,
+                                fontSize: '0.8rem',
+                                fontWeight: 650,
                                 color: 'var(--text-primary)',
                                 letterSpacing: '0.01em',
                                 whiteSpace: 'nowrap'

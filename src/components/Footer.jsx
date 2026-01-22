@@ -69,10 +69,10 @@ const Footer = () => {
                                     rel="noopener noreferrer"
                                     aria-label={social.label}
                                     style={{
-                                        width: 32,
-                                        height: 32,
-                                        borderRadius: 8,
-                                        background: 'var(--bg-card)',
+                                        width: 38,
+                                        height: 38,
+                                        borderRadius: 10,
+                                        background: 'var(--bg-tag)',
                                         border: '1px solid var(--border)',
                                         display: 'flex',
                                         alignItems: 'center',
@@ -81,12 +81,14 @@ const Footer = () => {
                                         transition: 'var(--transition)'
                                     }}
                                     onMouseEnter={(e) => {
-                                        e.currentTarget.style.color = '#fff';
+                                        e.currentTarget.style.color = 'var(--text-primary)';
                                         e.currentTarget.style.borderColor = 'var(--border-hover)';
+                                        e.currentTarget.style.background = 'var(--overlay-medium)';
                                     }}
                                     onMouseLeave={(e) => {
                                         e.currentTarget.style.color = 'var(--text-muted)';
                                         e.currentTarget.style.borderColor = 'var(--border)';
+                                        e.currentTarget.style.background = 'var(--bg-tag)';
                                     }}
                                 >
                                     {social.icon}
@@ -100,26 +102,26 @@ const Footer = () => {
                         {/* Navigation */}
                         <div>
                             <h4 style={{
-                                fontSize: '0.7rem',
-                                fontWeight: 700,
+                                fontSize: '0.75rem',
+                                fontWeight: 800,
                                 textTransform: 'uppercase',
                                 letterSpacing: '0.15em',
-                                color: 'var(--text-muted)',
+                                color: 'var(--text-primary)',
                                 marginBottom: 20
                             }}>
                                 Navigation
                             </h4>
-                            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 10 }}>
+                            <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 12 }}>
                                 {navLinks.map((link) => (
                                     <li key={link.name}>
                                         <a
                                             href={link.href}
                                             style={{
-                                                fontSize: '0.875rem',
+                                                fontSize: '0.95rem',
                                                 color: 'var(--text-secondary)',
                                                 transition: 'color 0.2s ease'
                                             }}
-                                            onMouseEnter={(e) => e.target.style.color = '#fff'}
+                                            onMouseEnter={(e) => e.target.style.color = 'var(--text-primary)'}
                                             onMouseLeave={(e) => e.target.style.color = 'var(--text-secondary)'}
                                         >
                                             {link.name}
@@ -132,25 +134,25 @@ const Footer = () => {
                         {/* Status */}
                         <div>
                             <h4 style={{
-                                fontSize: '0.7rem',
-                                fontWeight: 700,
+                                fontSize: '0.75rem',
+                                fontWeight: 800,
                                 textTransform: 'uppercase',
                                 letterSpacing: '0.15em',
-                                color: 'var(--text-muted)',
+                                color: 'var(--text-primary)',
                                 marginBottom: 20
                             }}>
                                 Status
                             </h4>
                             <div className="flex items-center gap-2 mb-3">
                                 <span style={{
-                                    width: 6,
-                                    height: 6,
+                                    width: 8,
+                                    height: 8,
                                     borderRadius: '50%',
                                     background: '#22C55E'
                                 }} />
-                                <span style={{ fontSize: '0.85rem', fontWeight: 500 }}>Available for Projects</span>
+                                <span style={{ fontSize: '0.95rem', fontWeight: 600 }}>Available for Projects</span>
                             </div>
-                            <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', lineHeight: 1.5 }}>
+                            <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', lineHeight: 1.6 }}>
                                 Based in Tamil Nadu, India
                                 <br />
                                 GMT +5:30
@@ -169,7 +171,7 @@ const Footer = () => {
                         gap: 16
                     }}
                 >
-                    <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                    <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
                         © 2026 K Modha Vignesh. Crafted with precision.
                     </p>
 
@@ -177,17 +179,17 @@ const Footer = () => {
                         onClick={scrollToTop}
                         className="flex items-center gap-2"
                         style={{
-                            fontSize: '0.75rem',
-                            fontWeight: 600,
+                            fontSize: '0.8rem',
+                            fontWeight: 700,
                             color: 'var(--text-muted)',
                             transition: 'color 0.2s ease',
                             padding: '6px 0'
                         }}
-                        onMouseEnter={(e) => e.currentTarget.style.color = '#fff'}
+                        onMouseEnter={(e) => e.currentTarget.style.color = 'var(--text-primary)'}
                         onMouseLeave={(e) => e.currentTarget.style.color = 'var(--text-muted)'}
                     >
                         Back to Top
-                        <ArrowUp size={12} />
+                        <ArrowUp size={14} />
                     </button>
                 </div>
             </div>
