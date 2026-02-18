@@ -1,10 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Play, ExternalLink, Tv, Youtube } from 'lucide-react';
+import { MY_AGE } from '../utils/age';
 
 const mediaItems = [
     {
-        title: 'Featured Interview: 19-Year-Old CTO',
+        title: `Featured Interview: ${MY_AGE}-Year-Old CTO`,
         source: 'Tech Spotlight',
         link: 'https://youtu.be/cB24RSk5yks',
         image: 'https://img.youtube.com/vi/cB24RSk5yks/maxresdefault.jpg',

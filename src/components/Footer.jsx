@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Twitter, Linkedin, Instagram, Youtube, ArrowUp, Command } from 'lucide-react';
+import { MY_AGE } from '../utils/age';
 
 const Footer = () => {
     const scrollToTop = () => {
@@ -56,7 +57,7 @@ const Footer = () => {
                             lineHeight: 1.5,
                             marginBottom: 16
                         }}>
-                            Building exceptional digital experiences as a 19-year-old CTO and Full-Stack Architect.
+                            Building exceptional digital experiences as a {MY_AGE}-year-old CTO and Full-Stack Architect.
                         </p>
 
                         {/* Socials */}

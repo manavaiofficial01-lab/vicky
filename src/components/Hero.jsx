@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Rocket, Github, Linkedin, Instagram, ArrowDown } from 'lucide-react';
+import { MY_AGE } from '../utils/age';
 
 const Hero = () => {
     return (
@@ -43,7 +44,7 @@ const Hero = () => {
                         transition={{ duration: 0.8, delay: 0.2 }}
                         style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', maxWidth: '480px', margin: '0 auto 28px', lineHeight: 1.6, fontWeight: 500 }}
                     >
-                        I'm <span style={{ color: 'var(--text-primary)', fontWeight: 700 }}>Vignesh</span>, a 19-year-old Video Editor & Vibe Coder
+                        I'm <span style={{ color: 'var(--text-primary)', fontWeight: 700 }}>Vignesh</span>, a {MY_AGE}-year-old Video Editor & Vibe Coder
                         who transforms raw footage into captivating narratives with cutting-edge AI tech and creative coding.
                     </motion.p>
 

@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Zap, Code, Heart, MapPin, Coffee } from 'lucide-react';
 import profileImg from '../assets/profile.jpg';
+import { MY_AGE } from '../utils/age';
 
 const About = () => {
     const stats = [
@@ -96,7 +97,7 @@ const About = () => {
                                 lineHeight: 1.7,
                                 marginBottom: 16
                             }}>
-                                I'm <span style={{ color: 'var(--text-primary)', fontWeight: 700 }}>K Modha Vignesh</span>, a 19-year-old Video Editor & Vibe Coder from Tamil Nadu, India. With 3+ years of creative experience,
+                                I'm <span style={{ color: 'var(--text-primary)', fontWeight: 700 }}>K Modha Vignesh</span>, a {MY_AGE}-year-old Video Editor & Vibe Coder from Tamil Nadu, India. With 3+ years of creative experience,
                                 I specialize in cinematic video editing using DaVinci Resolve and crafting elegant web experiences with modern tech stacks.
                             </p>
                             <p style={{

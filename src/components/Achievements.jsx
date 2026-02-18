@@ -1,10 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Trophy, Star, Target, Zap, TrendingUp, Users } from 'lucide-react';
+import { MY_AGE } from '../utils/age';
 
 const achievements = [
     {
-        title: 'CTO at 19 Years Old',
+        title: `CTO at ${MY_AGE} Years Old`,
         description: 'Appointed as Chief Technology Officer at Rategle Technologies, leading engineering and design teams.',
         icon: <Trophy size={20} />,
         color: '#F59E0B',
