@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Rocket, Github, Linkedin, Instagram, ArrowDown } from 'lucide-react';
+import profileImg from '../assets/profile.jpg';
 import { MY_AGE } from '../utils/age';
 
 const Hero = () => {
@@ -12,6 +13,35 @@ const Hero = () => {
 
             <div className="container relative" style={{ zIndex: 10 }}>
                 <div className="text-center" style={{ maxWidth: '900px', margin: '0 auto' }}>
+                    {/* Profile Image */}
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.5 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        transition={{ duration: 0.8 }}
+                        style={{
+                            width: 100,
+                            height: 100,
+                            margin: '0 auto 24px',
+                            borderRadius: '50%',
+                            padding: '4px',
+                            background: 'var(--accent-glow)',
+                            border: '1px solid var(--accent-light)',
+                            overflow: 'hidden',
+                            position: 'relative'
+                        }}
+                    >
+                        <img 
+                            src={profileImg} 
+                            alt="Vignesh" 
+                            style={{ 
+                                width: '100%', 
+                                height: '100%', 
+                                borderRadius: '50%', 
+                                objectFit: 'cover' 
+                            }} 
+                        />
+                    </motion.div>
+
                     {/* Badge */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}

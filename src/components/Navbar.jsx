@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Command, Sun, Moon } from 'lucide-react';
+import profileImg from '../assets/profile.jpg';
 
 const Navbar = ({ theme, toggleTheme }) => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -41,7 +42,17 @@ const Navbar = ({ theme, toggleTheme }) => {
         >
             <div className="container flex items-center justify-between">
                 {/* Logo */}
-                <a href="#" style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '1.125rem', color: 'var(--text-primary)' }}>
+                <a href="#" className="flex items-center gap-3" style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: '1.125rem', color: 'var(--text-primary)' }}>
+                    <div style={{
+                        width: 32,
+                        height: 32,
+                        borderRadius: 10,
+                        overflow: 'hidden',
+                        background: 'var(--bg-secondary)',
+                        border: '1px solid var(--border)'
+                    }}>
+                        <img src={profileImg} alt="Vignesh" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    </div>
                     Vignesh
                 </a>
 

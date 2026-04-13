@@ -1,5 +1,6 @@
 import React from 'react';
 import { Github, Twitter, Linkedin, Instagram, Youtube, ArrowUp, Command } from 'lucide-react';
+import profileImg from '../assets/profile.jpg';
 import { MY_AGE } from '../utils/age';
 
 const Footer = () => {
@@ -39,14 +40,15 @@ const Footer = () => {
                             <div style={{
                                 width: 32,
                                 height: 32,
-                                background: '#fff',
-                                borderRadius: 8,
+                                background: 'var(--bg-tag)',
+                                border: '1px solid var(--border)',
+                                borderRadius: 10,
                                 display: 'flex',
                                 alignItems: 'center',
-                                justifyCenter: 'center',
-                                color: '#000'
+                                justifyContent: 'center',
+                                overflow: 'hidden'
                             }}>
-                                <Command size={16} />
+                                <img src={profileImg} alt="logo" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                             </div>
                             Vignesh
                         </a>
