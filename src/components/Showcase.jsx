@@ -72,44 +72,63 @@ const projects = {
             link: 'https://www.instagram.com/reel/DMadl2tpFyH/',
             type: 'video'
         },
-        {
-            title: 'Communication in Tech',
-            category: 'Career Advice',
-            tech: ['DaVinci Resolve', 'Sound Design'],
-            desc: 'Energetic video highlighting the importance of soft skills in the technical world with high-key studio visuals.',
-            link: 'https://www.instagram.com/reel/DMc9vwXuIpc/',
-            type: 'video'
-        },
-        {
-            title: 'Mastering Core Skills',
-            category: 'Education',
-            tech: ['DaVinci Resolve', 'Color Grading'],
-            desc: 'Unique aesthetic edit featuring newspaper-print textures and high-contrast visuals focusing on skill development.',
-            link: 'https://www.instagram.com/reel/DMfZd3spp51/',
-            type: 'video'
-        },
-        {
-            title: 'Navigating the Tech Stack',
-            category: 'Developer Roadmap',
-            tech: ['DaVinci Resolve', 'Visual FX'],
-            desc: 'Educational reel with floating software logos and vibrant neon aesthetics guiding developers on their path.',
-            link: 'https://www.instagram.com/reel/DMiA0fepTJa/',
-            type: 'video'
-        },
-        {
-            title: 'College Productivity Hacks',
-            category: 'Student Life',
-            tech: ['DaVinci Resolve', 'Cinematic Edits'],
-            desc: 'Fast-paced, engaging student guide featuring minimalist grid backgrounds and trendy visual accents.',
-            link: 'https://www.instagram.com/reel/DMsRONWpEt3/',
-            type: 'video'
-        },
+       
+     
+  
         {
             title: 'Visual Storytelling',
             category: 'Creative Edit',
             tech: ['DaVinci Resolve', 'Cinematics'],
             desc: 'High-end visual production with ultra-smooth transitions and precisely timed rhythmic pacing.',
             link: 'https://www.instagram.com/p/DMyl0qDRYDN/',
+            type: 'video'
+        },
+        {
+            title: 'iPhone Price Comparison',
+            category: 'Tech Awareness',
+            tech: ['DaVinci Resolve', 'Motion Graphics'],
+            desc: 'Educational edit explaining the price difference of iPhones in Dubai vs India with clean text overlays.',
+            link: 'https://www.instagram.com/p/DWvyfkaj6_c/',
+            type: 'video'
+        },
+        {
+            title: 'Future of Automation',
+            category: 'Product Showcase',
+            tech: ['Cinematic', '3D Motion'],
+            desc: 'High-end lifestyle automation showcase featuring smart living experiences and sleek transitions.',
+            link: 'https://www.instagram.com/p/DXErTO_Ez65/',
+            type: 'video'
+        },
+        {
+            title: 'What is a Flagship?',
+            category: 'Tech Education',
+            tech: ['DaVinci Resolve', 'Cinematic'],
+            desc: 'Engaging reel explaining the concept of flagship smartphones with premium visual storytelling.',
+            link: 'https://www.instagram.com/reel/DW_jxhxv2Ac/',
+            type: 'video'
+        },
+        {
+            title: 'VinFast VF7 Experience',
+            category: 'Automotive',
+            tech: ['Color Grading', 'Vfx'],
+            desc: 'Cinematic showcase of the VinFast VF7 electric SUV, highlighting innovation and 5-star safety.',
+            link: 'https://www.instagram.com/reel/DWoYvC4EXEl/',
+            type: 'video'
+        },
+        {
+            title: 'The Dream Bike Journey',
+            category: 'Lifestyle',
+            tech: ['DaVinci Resolve', 'Sound Design'],
+            desc: 'Dynamic bike showroom experience at Dev Suzuki, capturing the transition from dream to road.',
+            link: 'https://www.instagram.com/reel/DWjL3O6km_Q/',
+            type: 'video'
+        },
+        {
+            title: 'Electric Vehicle Guide',
+            category: 'Informative',
+            tech: ['3D Text', 'Cinematic Edits'],
+            desc: 'Quick guide for switching from petrol to electric, simplified with engaging visual cues and motion design.',
+            link: 'https://www.instagram.com/reel/DW6aNvMlVUh/',
             type: 'video'
         }
     ]
